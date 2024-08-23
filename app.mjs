@@ -46,6 +46,17 @@ memeForwardButton.addEventListener("click", ()=> {
     }
 }
 )
+memeBackwardButton.addEventListener("click", ()=> {
+    m -= 1;
+    memePic.src = `${memes[51 - m].url}`
+    if ( m === 51) {
+        memeBackwardButton.style.cursor = "not-allowed"
+        return
+    }
+}
+)
+
+
 export {j}
 export {memePic}
 
