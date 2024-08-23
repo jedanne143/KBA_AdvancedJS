@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    /* min-width: 540px; */
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+    height: 100px; */
+    background-color: black;
+    color: #FF6617;
+    font-size: 30px;
+}
+
+#headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding:5px;
+    margin-right: 15px; 
+
+}
+
+#pageName{
+    text-align: center;
+}
+.centerContent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#jokeContainer{
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    font-size: 20px;
+    width: auto;
+    background-image:  linear-gradient(black, #FF6617)
+}
+#jokeBackwardButton{
+    border-radius: 50%;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    transform: rotate(-180deg);
+    background:white;
+    opacity: 0.9;
+}
+#jokeForwardButton{
+    border-radius: 50%;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#jokeButtonContainer{
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    align-items: center;
+    justify-content: center;
+}
+#joke{
+    text-align:center;
+    color: white;
+    padding: 10px;
+}
+#funny{
+    width: 30px;
+    height: 30px;
+ }
+ #memeContainer{
+    flex: 1 ;
+    background-color: black;
+    width: 100%;
+    height: 500px;  
+}
+
+#thumbsup{
+    width:60px;
+    height:60px;
+    border: 1px solid white
+}
+#memeButtonContainer{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    justify-content: center;
+}
+#memeBackwardButton{
+    display: flex;
+    border-radius: 50%;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    transform: rotate(-180deg);
+    background:white;
+    opacity: 0.9;
+    background-color: #FF6617;
+    
+}
+#memeForwardButton{
+    border-radius: 50%;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #FF6617;
+}
+#meme{
+    display:flex;
+    flex-direction: column;
+    min-width: 500px;
+    /* width:;
+    height:auto; */
+    object-fit: contain;
+    
+}
+#memeCase{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    align-content: center;
+    justify-content: center;
+
+}
