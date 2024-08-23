@@ -31,7 +31,7 @@ jokeBackwardButton.addEventListener("click" , () => {
 
 async function main() {
     await meme();  
-    memePic.src = `${memes[50].url}`
+    memePic.src = `${memes[51].url}`
 }
 main()
 
