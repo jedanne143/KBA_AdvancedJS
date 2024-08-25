@@ -30,17 +30,18 @@ jokeBackwardButton.addEventListener("click" , () => {
     jokeLine.textContent = `${jokeCollection[j]}`
 
 })
-
+// =================meme===========================
 async function main() {
     await meme();  
-    memePic.src = `${memes[51].url}`
+    memePic.src = "https://i.imgflip.com/39t1o.jpg"
+    
 }
 main()
 let m =0;
 memeForwardButton.addEventListener("click", ()=> {
     m += 1;
-    memePic.src = `${memes[51 + m].url}`
-    if ( m === 48) {
+    memePic.src = `${memes[50 + m].url}`
+    if ( m === 49) {
         memeForwardButton.style.cursor = "not-allowed"
         return
     }
@@ -48,8 +49,8 @@ memeForwardButton.addEventListener("click", ()=> {
 )
 memeBackwardButton.addEventListener("click", ()=> {
     m -= 1;
-    memePic.src = `${memes[51 - m].url}`
-    if ( m === 51) {
+    memePic.src = `${memes[50 + m].url}`
+    if ( m === 50) {
         memeBackwardButton.style.cursor = "not-allowed"
         return
     }
@@ -58,7 +59,6 @@ memeBackwardButton.addEventListener("click", ()=> {
 
 
 export {j}
-export {memePic}
 
 
 

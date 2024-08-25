@@ -1,4 +1,4 @@
-import { memePic } from "./app.mjs";
+
 let memes;
 async function meme() {
     try{
